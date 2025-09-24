@@ -14,5 +14,5 @@ app.use('/', (req, res) => {
 const PORT = process.env.PORT || 4000;
 
 app.listen(PORT, () => {
-    console.log('Servidor funcionando en el puerto 4000')
+    console.log(`Servidor funcionando en el puerto ${PORT}`)
 })
