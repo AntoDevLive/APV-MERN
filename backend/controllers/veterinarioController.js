@@ -50,8 +50,13 @@ const confirmar = async(req, res) => {
     res.json({ url: 'confirmado' })
 }
 
+const autenticar = (req, res) => {
+    res.json('autenticando')
+}
+
 export {
     registrar,
     perfil,
-    confirmar
+    confirmar,
+    autenticar
 }
